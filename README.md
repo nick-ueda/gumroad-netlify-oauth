@@ -1,6 +1,6 @@
-# Netlify + Intercom OAuth &nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/davidwells/intercom-netlify-oauth"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+# Netlify + Gumroad OAuth &nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/nick-ueda/gumroad-netlify-oauth"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
-Add 'login with Intercom' via Netlify Functions & OAuth!
+Add 'login with Gumroad' via Netlify Functions & OAuth!
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
 - [About the project](#about-the-project)
@@ -14,7 +14,7 @@ Add 'login with Intercom' via Netlify Functions & OAuth!
 
 ## About the project
 
-This project sets up a "login with Intercom" OAuth flow using netlify functions.
+This project sets up a "Login with Gumroad" OAuth flow using netlify functions.
 
 Here is a quick demo of the login flow, and the OAuth Access data you get back:
 
@@ -35,7 +35,7 @@ Let's get started with how to get setup with the repo and with Intercom.
 1. **Clone down the repository**
 
     ```bash
-    git clone git@github.com:DavidWells/intercom-netlify-oauth.git
+    git clone git@github.com:nick-ueda/gumroad-netlify-oauth.git
     ```
 
 2. **Install the dependencies**
@@ -44,7 +44,7 @@ Let's get started with how to get setup with the repo and with Intercom.
     npm install
     ```
 
-3. **Create an Intercom OAuth app**
+3. **Create an Gumroad OAuth app**
 
     Lets go ahead and setup the Intercom app we will need!
 
