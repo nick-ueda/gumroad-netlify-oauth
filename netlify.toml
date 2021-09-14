@@ -1,0 +1,13 @@
+[build]
+  # This will be run the site build
+  command = "npm run build"
+  # This is the directory is publishing to netlify's CDN
+  publish = "build"
+  # Location of built function code
+  functions = "functions-build"
+
+[template.environment]
+ 	# Environment variables needed
+  GUMROAD_APP_ID = "Your Gumroad App Id"
+  GUMROAD_CLIENT_ID = "Your Gumroad Oauth Client Id"
+  GUMROAD_CLIENT_SECRET = "Your Gumroad Oauth Secret"
