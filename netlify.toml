@@ -8,6 +8,5 @@
 
 [template.environment]
  	# Environment variables needed
-  GUMROAD_APP_ID = "Your Gumroad App Id"
-  GUMROAD_CLIENT_ID = "Your Gumroad Oauth Client Id"
-  GUMROAD_CLIENT_SECRET = "Your Gumroad Oauth Secret"
+  GUMROAD_CLIENT_ID = "Your Gumroad Oauth Application Id"
+  GUMROAD_CLIENT_SECRET = "Your Gumroad Application Secret"
